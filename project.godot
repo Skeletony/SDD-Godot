@@ -11,11 +11,15 @@ config_version=4
 [application]
 
 config/name="SDD Game"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://Title/Main Menu.tscn"
 config/icon="res://icon.png"
 
 [display]
 
+window/size/width=300
+window/size/height=160
+window/size/test_width=1280
+window/size/test_height=720
 mouse_cursor/custom_image="res://Mouse.png"
 
 [physics]

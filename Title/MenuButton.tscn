@@ -1,0 +1,14 @@
+[gd_scene format=2]
+
+[node name="Menu Button" type="Button"]
+margin_right = 260.0
+margin_bottom = 20.0
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_min_size = Vector2( 260, 20 )
+text = "Label"
+align = 1
+valign = 1
+uppercase = true
