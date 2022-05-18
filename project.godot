@@ -704,11 +704,15 @@ config/icon="res://icon.png"
 
 [display]
 
-window/size/width=300
-window/size/height=160
-window/size/test_width=1280
-window/size/test_height=720
+window/size/width=1920
+window/size/height=1080
+window/size/resizable=false
+window/size/fullscreen=true
+window/size/test_width=1920
+window/size/test_height=1080
 mouse_cursor/custom_image="res://Mouse.png"
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [physics]
 
